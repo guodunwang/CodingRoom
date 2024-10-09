@@ -1,0 +1,202 @@
+kubectl delete pods -n longhorn-system -o wide --field-selector spec.nodeName=szjd-zsy-test-spod2-pm-os01-paas-05
+vim ./delete-ns-longhorn-system2.json
+kubectl delete pods --all -n longhorn-system --field-selector spec.nodeName=szjd-zsy-test-spod2-pm-os01-paas-05
+psql -h 100.70.47.2 -p 31499 -U zrz -d postgres
+kubectl describe pod longhorn-manager-k7s9j -n longhorn-system
+kubectl get crd  -n longhorn-system |grep nodes
+kubectl logs -f -n dmcp-system api-server-56bbf99588-mgcw9
+kubectl describe node
+kubectl exec -it mypod1  bash
+kubectl describe pod longhorn-driver-deployer-d5945b47f-m7bfz -n longhorn-system
+kubectl proxy
+kubectl get ns
+cd longhorn-deploy
+sudo sh load-images.sh --image-list longhorn-images.txt --images longhorn-images.tar.gz --registry registry.clouddb:5000
+cd local/
+kubectl sc
+k -n   longhorn-system   get cm longhorn-storageclass -oyaml
+rm ./longhorn-system.json
+kubectl get namespace
+cd config/
+clea
+kubectl get pod -n dmcp-instance -o wide
+kubectl describe pod -n dmcp-instance forcibly-cute-alien-0
+kubectl describe pod longhorn-manager-8j59w -n longhorn-system
+kubectl describe pod longhorn-manager-52xfk   -n longhorn-system
+kubectl delete pod longhorn-manager-rwvnl -n longhorn-system
+unset TMOUT
+clera
+curl -k -H "Content-Type: application/json" -X PUT --data-binary @delete-ns-longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+kubectl get pod -n dmcp-system
+kpg logs pg-postgresql-apiserver-85658c869b-vhc8c  |grep -A 10 'do ResourceReport request'
+kubectl get ns|grep longhornclear
+cat delete-ns-longhorn-system.json
+kubectl get namespace | grep longhornclear
+docker run -it --rm --network host registry.clouddb:5000/he3/pg-tools:v0.1.0-alpha.1 /bin/bash
+k -n   longhorn-system   get pod
+kubectl get node
+kubectl delete -f  pvc-create
+kubectl get pods -n longhorn-system -o wide | grep szjd-zsy-test-spod2-pm-os01-paas-01
+kubectl get pods -n longhorn-system
+cd 0808/
+cd long
+kubectl describe pod longhorn-ui-5469d6c576-lngmj -n longhorn-system
+kpg get cm
+cat delete-ns-longhorn-system
+cd test-pvc/
+kubectl get crd  -n longhorn-system
+kubectl describe pod engine-image-ei-c8e375c8-lc62z
+k get node --show-labels |grep az01
+kubectl get namespce | grep longhorn
+vim ./delete-ns-longhorn-system.json
+kpg logs pg-postgresql-apiserver-85658c869b-vhc8c  |grep -A 10 ResourceReport
+tar -zxf local-path-provisioner_x86.tar
+k get sc
+vim ./longhorn-system.json
+kubectl get pods -n longhorn-system -o wide | grep szjd-zsy-test-spod2-pm-os01-paas-04
+kubectl create -f pvc-create.yaml
+kubectl create -f longhorn-withclouddb-deploy2.yaml
+vim application.yml
+kubectl get crd   -n longhorn-system
+kubectl logs -f -n dmcp-system api-server-7ffc7f8789-6jv48
+kubectl get pod -n dmcp-instance -o wide -w
+kubectl get longhorn-system -o json > delete-ns-longhorn-system.json
+kubectl describe pod longhorn-driver-deployer-d5945b47f-w7t6j   -n longhorn-system
+cd /apps/suyan/
+cat ./delete-ns-longhorn-system.json
+k describe node szjd-zsy-test-spod2-pm-os01-paas-04
+kubectl get dc
+kubectl get pods -n longhorn-system -o wide --field-                                                                                                                        selector spec.nodeName=szjd-zsy-test-spod2-pm-os01-paas-05
+cd webservice
+cd operator_x86_64/
+kubectl logs longhorn-manager-xqbcc -n longhorn-system
+cat /etc/hosts | grep registry.clouddb
+cat longhorn-system.json
+kubectl get sc
+kubectl delete -f longhorn-withclouddb-deploy2.yaml
+kubectl get pvc
+get pods -n longhorn-system -o wide
+kubectl get \pods -n longhorn-system
+vi pvc-test.yaml
+kubectl get ns|grep longhorn-system
+kubectl describe pod longhorn-driver-deployer-d5945b47f-w7t6j -n longhorn-system
+ls;
+kpg edit cm pg-postgresql-apiserver
+kubectl delete pod longhorn-driver-deployer-d5945b47f-cxtz8 -n longhorn-system
+curl -k -H Content-Type: application/json -X PUT --data-binary @longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+k -n cidc-u-97884c8d05bc4e78bb3637a23ffd31a8   get pvc
+kp get  cm pg-apiserver-postgresql-apiserver -oyaml
+qfusion
+vi pvc-test1.yaml
+cd zw/
+k describe node |grep cpu
+cat ./longhorn-system.json
+kubectl get ns longhorn-system -o json > delete-ns-longhorn-system.json
+kpg logs pg-postgresql-apiserver-85658c869b-vhc8c  |grep -A 10 -i create |grep -i active
+kubectl get pods -n longhorn-system -o wide | grep szjd-zsy-test-spod2-pm-os01-paas-05
+kubectl describe pod longhorn-manager-8j59w
+kubectl describe pod engine-image-ei-c8e375c8-lc62z -n longhorn-system
+cd cong
+tar -vxf local-path-provisioner_x86.tar
+top
+pwd
+kpg logs pg-postgresql-apiserver-85658c869b-vhc8c  |grep -A 10 -i resource
+clear];
+kubectl delete pod -n dmcp-system api-server-56bbf99588-nrbws
+k -n cidc-u-97884c8d05bc4e78bb3637a23ffd31a8   get pod
+kubectl get longhorn-system
+kubectl logs -f -n dmcp-system api-server-7ffc7f8789-rcjr6
+kubectl get namespce
+kubectl create -f longhorn-fc-storageclass.yaml
+kubectl create -f pvc-create
+kpg logs pg-postgresql-apiserver-85658c869b-vhc8c  |grep -A 10 2a4aec0895f94860a97be99e91429c1b
+kp get cm
+kubectl create -f pvc-test1.yaml
+kubectl exec -it pod mypod1  bash
+kubectl create -f longhorn-withclouddb-deploy.yaml
+kubectl delete pod longhorn-manager-46pm9 -n longhorn-system
+kubectl describe nodes
+k get pod  -n cidc-u-97884c8d05bc4e78bb3637a23ffd31a8  he3pg-0722577d-compute-nodes-0 -oyaml |grep uid
+k -n cidc-u-97884c8d05bc4e78bb3637a23ffd31a8   get pod -owide
+rm -rf 28d3982c35b499f19548bfe8f6374546c37a8c5f819d184a54f2b97924a86607/ 33e1f34f7e7329cf28ee721f698761651cd4cfc501c17ed4436d110c21a55a37/ 440c7623d322ba2667b4544ceebcf7397fdf3e2a2095129c616bce55b001d956/ b29384aeb4b13e047448ccfd312c52b4d023abcbbaafcab174293a97821dddb0.json  dfdcae5372e076e856ae18c3a8ca13a70e80de80d36d00701a0bedf1af86dbd4/ manifest.json repositories
+vim deployment.yaml
+kpg logs pg-postgresql-apiserver-85658c869b-vhc8c  |grep -A 10 -i resource_type
+kubectl describe pod engine-image-ei-c8e375c8-66mxs -n longhorn-system
+kubectl exec -it  mypod1  bash
+k -n cidc-u-97884c8d05bc4e78bb3637a23ffd31a8   get pod he3pg-25ad26b0-compute-nodes-0 -oyaml |grep uid
+clear
+kubectl get pods -n longhorn-system -o wide --field-selector spec.nodeName=szjd-zsy-test-spod2-pm-os01-paas-05
+k get  sc
+k get pod -A |grep 07225
+kubectl delete pod -n dmcp-system api-server-7ffc7f8789-jzk7j
+ls
+kubectl create -f longhorn-ds-storageclass.yaml
+kubectl get nodes -n longhorn-system
+k get mode --show-labels
+kp get  cm
+kpg logs pg-postgresql-apiserver-85658c869b-vhc8c  |grep -A 10 -i create
+kpg get pod
+kubectl delete ns longhorn-system --force
+cat /etc/hosts
+kpg logs pg-postgresql-apiserver-85658c869b-vhc8c  |grep -A 10 -i report
+vim kubeconfig.yml
+curl -k -H "Content-Type: application/json" -X PUT --data-binary @delete-ns-longhorn-system2.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+vi pvc-create.yaml
+kpg delete pod pg-postgresql-apiserver-85658c869b-86ckt
+kubectl describe pod longhorn-manager-656vk -n longhorn-system
+kubectl logs longhorn-manager-52xfk   -n longhorn-system
+kubectl delete pod longhorn-driver-deployer-d5945b47f-cxtz8
+kp edit cm pg-apiserver-postgresql-apiserver
+kubectl delete pod longhorn-manager-rwvnl
+vim local-path-storage.yaml
+kubectl describe pod longhorn-manager-52xfk -n longhorn-system
+k -n cidc-u-97884c8d05bc4e78bb3637a23ffd31a8   get pvc -owide
+cleawr
+kubectl get pods -n longhorn-system -o wide
+k get node -l dbaas.cmss.com/he3pg=true
+kubectl get ns longhorn-system -o json > longhorn-system.json
+k -n   longhorn-system   get cm longhorn-default-setting -oyaml
+kp get pod
+k -n   longhorn-system   get cm
+kubectl delete -f longhorn-withclouddb-deploy.yaml
+kubectl drain szjd-zsy-test-spod2-pm-os01-paas-05 --ignore-daemonsets --delete-emptydir-data
+kubectl exec -it  mypod1  sh
+kubectl get crd  -n longhorn-system |grep node
+cd ..\
+kubectl  get  pods
+kubectl get namespace | grep longhorn
+kpg  logs   pg-postgresql-apiserver-85658c869b-vhc8c |grep ResourceAudit
+history
+kubectl delete -f  pvc-create.yaml
+kubectl delete pod longhorn-manager-8j59w -n longhorn-system
+cd images/
+kubectl get all -n longhorn-system
+kubectl  pods
+k -n cidc-u-97884c8d05bc4e78bb3637a23ffd31a8   get pod -owide |grep 25ad26b0
+kubectl get cluster -A | grep 0722
+kubectl get namespace | grep longhorn-system
+kubectl get ns|grep longhorn
+kubectl get pods -n longhorn-system -o wide | szjd-zsy-test-spod2-pm-os01-paas-04
+kubectl logs -f -n dmcp-system api-server-56bbf99588-nrbws
+cd docs/RunOperatorDocs/samples/
+k get node --show-labels
+history >> 历史命令.txt
+kubectl delete pod -n dmcp-system api-server-7ffc7f8789-rcjr6
+cd ..
+kubectl get ns longhorn-system -o json > delete-ns-longhorn-system2.json
+ll
+kp delete   pod pg-apiserver-postgresql-apiserver-86d87f5d5c-h77l5
+kubectl describe pod longhorn-manager-xqbcc -n longhorn-system
+kubectl delete ns longhorn-system
+
+
+----
+用于挂载的一些命令。
+sudo vgreduce  vg2 /dev/nvme3n1
+sudo vgcreate he3pg_data 
+sudo lvcreate -l 1831412 -n lv_he3pg_data he3pg_data
+sudo lvcreate -l 5494236 -n lv_he3pg_data he3pg_data  （5494236是VG中的PE数值）
+sudo lvcreate -l 5494236 -n lv_he3pg_data vg2 
+sudo mkfs -t ext4 /dev/vg2/lv_he3pg_data
+sudo mount /dev/mapper/he3pg_data-lv_he3pg_data  /data/he3pg-data
+sudo mount /dev/mapper/vg2-lv_he3pg_data  /data/he3pg-data

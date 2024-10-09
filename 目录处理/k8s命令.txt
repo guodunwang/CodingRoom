@@ -1,0 +1,500 @@
+    3  kubectl get \pods -n longhorn-system
+    4  kubectl get ns|grep longhorn-system
+    5  kubectl get ns|grep longhorn-system
+    6  kubectl get ns|grep longhorn-system
+    7  kubectl get ns|grep longhorn-system
+    8  kubectl delete ns longhorn-system
+    9  kubectl delete ns longhorn-system --force
+   10  kubectl get ns|grep longhorn-system
+   11  clear
+   12  kubectl get ns longhorn-system -o json > delete-ns-longhorn-system.json
+   13  ls
+   14  kubectl proxy
+   15  kubectl get ns longhorn-system -o json > delete-ns-longhorn-system2.json
+   16  ls
+   17  vim ./delete-ns-longhorn-system2.json
+   18  clear
+   19  kubectl proxy
+   20  clear
+   21  ls
+   22  cat delete-ns-longhorn-system.json
+   23  clear
+   24  ls
+   25  vim ./delete-ns-longhorn-system.json
+   26  clear
+   27  ls
+   28  kubectl proxy
+   29  cd /apps/suyan/
+   30  ll
+   31  cd operator_x86_64/
+   32  ll
+   33  cd cong
+   34  cd config/
+   35  ll
+   36  cd ..
+   37  cd docs/RunOperatorDocs/samples/
+   38  ll
+   39  vim deployment.yaml
+   40  cd ..
+   41  cd ..
+   42  cd ..
+   43  cd ..
+   44  ll
+   45  cd images/
+   46  ll
+   47  cd zw/
+   48  ll
+   49  cd ..
+   50  ll
+   51  cd 0808/
+   52  ll
+   53  ]cd ..
+   54  cd ..
+   55  ll
+   56  cd ..
+   57  ll
+   58  cd local/
+   59  ll
+   60  vim local-path-storage.yaml
+   61  pwd
+   62  cd ..
+   63  ll
+   64  cd webservice
+   65  ll
+   66  cd config/
+   67  ll
+   68  vim kubeconfig.yml
+   69  vim application.yml
+   70  kubectl describe node
+   71  kubectl describe nodes
+   72  kubectl get node
+   73  cd ..
+   74  cd ..
+   75  ll
+   76  cd local/
+   77  ll
+   78  tar -zxf local-path-provisioner_x86.tar
+   79  tar -vxf local-path-provisioner_x86.tar
+   80  ll
+   81  rm -rf 28d3982c35b499f19548bfe8f6374546c37a8c5f819d184a54f2b97924a86607/ 33e1f34f7e7329cf28ee721f698761651cd4cfc501c17ed4436d110c21a55a37/ 440c7623d322ba2667b4544ceebcf7397fdf3e2a2095129c616bce55b001d956/ b29384aeb4b13e047448ccfd312c52b4d023abcbbaafcab174293a97821dddb0.json  dfdcae5372e076e856ae18c3a8ca13a70e80de80d36d00701a0bedf1af86dbd4/ manifest.json repositories
+   82  ll
+   83  cd ..
+   84  ll
+   85  kubectl get pod -n dmcp-instance -o wide
+   86  kubectl get pod -n dmcp-instance -o wide
+   87  kubectl get pod -n dmcp-instance -o wide
+   88  kubectl get pod -n dmcp-instance -o wide -w
+   89  kubectl get pod -n dmcp-instance -o wide -w
+   90  kubectl get pod -n dmcp-instance -o wide -w
+   91  kubectl describe pod -n dmcp-instance forcibly-cute-alien-0
+   92  clear
+   93  kubectl get namespace
+   94  kubectl get namespace | grep longhorn
+   95  kubectl get namespace | grep longhorn
+   96  kubectl get namespace | grep longhorn
+   97  kubectl get namespace | grep longhorn
+   98  kubectl get namespace | grep longhorn
+   99  kubectl get namespace | grep longhorn
+  100  clera
+  101  clear
+  102  curl -k -H "Content-Type: application/json" -X PUT --data-binary @delete-ns-longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  103  clea
+  104  clear];
+  105  clear
+  106  curl -k -H "Content-Type: application/json" -X PUT --data-binary @delete-ns-longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  107  curl -k -H "Content-Type: application/json" -X PUT --data-binary @delete-ns-longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  108  curl -k -H "Content-Type: application/json" -X PUT --data-binary @delete-ns-longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  109  curl -k -H "Content-Type: application/json" -X PUT --data-binary @delete-ns-longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  110  curl -k -H "Content-Type: application/json" -X PUT --data-binary @delete-ns-longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  111  clear
+  112  kubectl get namespce
+  113  kubectl get namespace
+  114  clear
+  115  ls
+  116  cd longhorn-deploy
+  117  clear
+  118  ls
+  119  curl -k -H Content-Type: application/json -X PUT --data-binary @longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  120  clear
+  121  kubectl get namespce | grep longhorn
+  122  kubectl get namespace | grep longhorn
+  123  kubectl get pod -n dmcp-instance -o wide
+  124  psql -h 100.70.47.2 -p 31499 -U zrz -d postgres
+  125  kubectl get cluster -A | grep 0722
+  126  psql -h 100.70.47.2 -p 31499 -U zrz -d postgres
+  127  docker run -it --rm --network host registry.clouddb:5000/he3/pg-tools:v0.1.0-alpha.1 /bin/bash
+  128  . .qfusion
+  129  kpg get cm
+  130  kpg edit cm pg-postgresql-apiserver
+  131  kpg get pod
+  132  kpg delete pod pg-postgresql-apiserver-85658c869b-86ckt
+  133  kpg get pod
+  134  kpg get pod
+  135  kpg  logs   pg-postgresql-apiserver-85658c869b-vhc8c |grep ResourceAudit
+  136  clear
+  137  curl -k -H Content-Type: application/json -X PUT --data-binary @longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  138  curl -k -H Content-Type: application/json -X PUT --data-binary @longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  139  clear
+  140  curl -k -H Content-Type: application/json -X PUT --data-binary @longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  141  curl -k -H Content-Type: application/json -X PUT --data-binary @longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  142  curl -k -H Content-Type: application/json -X PUT --data-binary @longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  143  clear
+  144  ls
+  145  cd longhorn-deploy
+  146  clear
+  147  curl -k -H Content-Type: application/json -X PUT --data-binary @longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  148  curl -k -H Content-Type: application/json -X PUT --data-binary @longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  149  curl -k -H Content-Type: application/json -X PUT --data-binary @longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  150  cat longhorn-system.json
+  151  clear
+  152  kubectl get longhorn-system
+  153  kubectl get namespace | grep longhorn-system
+  154  curl -k -H "Content-Type: application/json" -X PUT --data-binary @delete-ns-longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  155  curl -k -H "Content-Type: application/json" -X PUT --data-binary @delete-ns-longhorn-system2.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  156  curl -k -H "Content-Type: application/json" -X PUT --data-binary @delete-ns-longhorn-system2.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  157  clear
+  158  ls
+  159  cd longhorn-deploy
+  160  clear
+  161  ls
+  162  curl -k -H "Content-Type: application/json" -X PUT --data-binary @delete-ns-longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  163  curl -k -H "Content-Type: application/json" -X PUT --data-binary @delete-ns-longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  164  kubectl get namespace | grep longhorn
+  165  kubectl get namespace
+  166  clear
+  167  sudo sh load-images.sh --image-list longhorn-images.txt --images longhorn-images.tar.gz --registry registry.clouddb:5000
+  168  clear
+  169  kubectl create -f longhorn-withclouddb-deploy.yaml
+  170  get pods -n longhorn-system -o wide
+  171  clear
+  172  kubectl get pods -n longhorn-system -o wide
+  173  kubectl get pods -n longhorn-system -o wide
+  174  kubectl get pods -n longhorn-system -o wide | szjd-zsy-test-spod2-pm-os01-paas-04
+  175  kubectl get pods -n longhorn-system -o wide | grep szjd-zsy-test-spod2-pm-os01-paas-04
+  176  kubectl get pods -n longhorn-system -o wide | grep szjd-zsy-test-spod2-pm-os01-paas-05
+  177  clear
+  178  kubectl get pods -n longhorn-system -o wide | grep szjd-zsy-test-spod2-pm-os01-paas-04
+  179  kubectl get pods -n longhorn-system -o wide | grep szjd-zsy-test-spod2-pm-os01-paas-05
+  180  kubectl get pods -n longhorn-system -o wide | grep szjd-zsy-test-spod2-pm-os01-paas-01
+  181  kubectl get pods -n longhorn-system -o wide
+  182  clear
+  183  kubectl describe pod engine-image-ei-c8e375c8-lc62z
+  184  kubectl get pods -n longhorn-system -o wide
+  185  kubectl describe pod engine-image-ei-c8e375c8-lc62z -n longhorn-system
+  186  kubectl describe pod engine-image-ei-c8e375c8-lc62z -n longhorn-system
+  187  kubectl get pods -n longhorn-system -o wide
+  188  kubectl describe pod engine-image-ei-c8e375c8-66mxs -n longhorn-system
+  189  kubectl describe pod engine-image-ei-c8e375c8-lc62z -n longhorn-system
+  190  ls
+  191  kubectl get pods -n longhorn-system -o wide
+  192  clear
+  193  kubectl delete -f longhorn-withclouddb-deploy.yaml
+  194  kubectl delete -f longhorn-withclouddb-deploy.yaml
+  195  clear
+  196  kubectl delete -f longhorn-withclouddb-deploy.yaml
+  197  kubectl delete -f longhorn-withclouddb-deploy.yaml
+  198  clear
+  199  ls
+  200  kubectl get longhorn-system -o json > delete-ns-longhorn-system.json
+  201  vim ./delete-ns-longhorn-system.json
+  202  ls
+  203  ls
+  204  cat delete-ns-longhorn-system
+  205  ls
+  206  cat delete-ns-longhorn-system.json
+  207  clear
+  208  kubectl get ns longhorn-system -o json > delete-ns-longhorn-system.json
+  209  cat ./delete-ns-longhorn-system.json
+  210  clear
+  211  vim ./delete-ns-longhorn-system.json
+  212  clear
+  213  kubectl proxy
+  214  clear
+  215  cat ./delete-ns-longhorn-system.json
+  216  clear
+  217  kubectl proxy
+  218  kubectl get ns longhorn-system -o json > delete-ns-longhorn-system.json
+  219  vim ./delete-ns-longhorn-system.json
+  220  kubectl proxy
+  221  vim ./delete-ns-longhorn-system.json
+  222  kubectl proxy
+  223  clear
+  224  kubectl get ns longhorn-system -o json > longhorn-system.json
+  225  ls
+  226  vim ./longhorn-system.json
+  227  cat ./longhorn-system.json
+  228  kubectl proxy
+  229  clear
+  230  ls
+  231  kubectl create -f longhorn-withclouddb-deploy2.yaml
+  232  kubectl get pods -n longhorn-system -o wide
+  233  kubectl get pods -n longhorn-system -o wide
+  234  kubectl get namespace | grep longhorn
+  235  kubectl get pods -n longhorn-system -o wide
+  236  kubectl describe pod longhorn-manager-656vk -n longhorn-system
+  237  kubectl get pods -n longhorn-system -o wide
+  238  kubectl describe pod longhorn-driver-deployer-d5945b47f-m7bfz -n longhorn-system
+  239  kubectl get pods -n longhorn-system -o wide
+  240  kubectl describe pod longhorn-manager-656vk -n longhorn-system
+  241  kubectl delete -f longhorn-withclouddb-deploy2.yaml
+  242  kubectl get pods -n longhorn-system -o wide
+  243  kubectl get pods -n longhorn-system -o wide
+  244  clear
+  245  kubectl get namespace | grep longhorn
+  246  kubectl delete -f longhorn-withclouddb-deploy2.yaml
+  247  kubectl get namespace | grep longhorn
+  248  kubectl get namespace | grep longhorn
+  249  kubectl get namespace | grep longhorn
+  250  kubectl get namespace | grep longhorn
+  251  kubectl get namespace | grep longhorn
+  252  kubectl get namespace | grep longhorn
+  253  kubectl get namespace | grep longhornclear
+  254  clear
+  255  kubectl get pods -n longhorn-system -o wide
+  256  kubectl get all -n longhorn-system
+  257  kubectl get all -n longhorn-system
+  258  clear
+  259  kubectl get ns longhorn-system -o json > longhorn-system.json
+  260  vim ./longhorn-system.json
+  261  clear
+  262  kubectl proxy
+  263  clear
+  264  kubectl get ns longhorn-system -o json > longhorn-system.json
+  265  vim ./longhorn-system.json
+  266  kubectl proxy
+  267  vim ./longhorn-system.json
+  268  kubectl proxy
+  269  clear
+  270  vim ./longhorn-system.json
+  271  rm ./longhorn-system.json
+  272  cleawr
+  273  clear
+  274  kubectl get ns longhorn-system -o json > longhorn-system.json
+  275  vim ./longhorn-system.json
+  276  cat ./longhorn-system.json
+  277  kubectl proxy
+  278  clear
+  279  clear
+  280  clear
+  281  kubectl create -f longhorn-withclouddb-deploy2.yaml
+  282  kubectl get pods -n longhorn-system -o wide
+  283  kubectl get pods -n longhorn-system -o wide
+  284  kubectl get pods -n longhorn-system -o wide
+  285  kubectl get pods -n longhorn-system -o wide
+  286  clear
+  287  kubectl get pods -n longhorn-system -o wide
+  288  kubectl describe pod longhorn-manager-8j59w
+  289  kubectl describe pod longhorn-manager-8j59w -n longhorn-system
+  290  kubectl get pods -n longhorn-system -o wide
+  291  kubectl describe pod longhorn-ui-5469d6c576-lngmj -n longhorn-system
+  292  clear
+  293  kubectl get pods -n longhorn-system -o wide
+  294  kubectl describe pod longhorn-ui-5469d6c576-lngmj -n longhorn-system
+  295  cat /etc/hosts
+  296  cat /etc/hosts | grep registry.clouddb
+  297  kubectl describe pod longhorn-ui-5469d6c576-lngmj -n longhorn-system
+  298  kubectl get pods -n longhorn-system -o wide
+  299  kubectl get nodes -n longhorn-system
+  300  clear
+  301  kubectl drain szjd-zsy-test-spod2-pm-os01-paas-05 --ignore-daemonsets --delete-emptydir-data
+  302  kubectl get pods -n longhorn-system -o wide --field-selector spec.nodeName=szjd-zsy-test-spod2-pm-os01-paas-05
+  303  kubectl delete pods -n longhorn-system -o wide --field-selector spec.nodeName=szjd-zsy-test-spod2-pm-os01-paas-05
+  304  kubectl delete pods --all -n longhorn-system --field-selector spec.nodeName=szjd-zsy-test-spod2-pm-os01-paas-05
+  305  kubectl get pods -n longhorn-system -o wide --field-selector spec.nodeName=szjd-zsy-test-spod2-pm-os01-paas-05
+  306  kubectl delete pod longhorn-driver-deployer-d5945b47f-cxtz8
+  307  kubectl delete pod longhorn-driver-deployer-d5945b47f-cxtz8 -n longhorn-system
+  308  kubectl delete pod longhorn-manager-rwvnl
+  309  kubectl delete pod longhorn-manager-rwvnl -n longhorn-system
+  310  kubectl get pods -n longhorn-system -o wide --field-                                                                                                                        selector spec.nodeName=szjd-zsy-test-spod2-pm-os01-paas-05
+  311  kubectl get pods -n longhorn-system -o wide --field-selector spec.nodeName=szjd-zsy-test-spod2-pm-os01-paas-05
+  312  kubectl describe pod longhorn-driver-deployer-d5945b47f-w7t6j -n longhorn-system
+  313  kubectl get pods -n longhorn-system -o wide
+  314  clear
+  315  kubectl get pods -n longhorn-system -o wide
+  316  kubectl describe pod longhorn-driver-deployer-d5945b47f-w7t6j -n longhorn-system
+  317  kubectl get pods -n longhorn-system -o wide
+  318  kubectl get pods -n longhorn-system -o wide
+  319  kubectl get pods -n longhorn-system -o wide
+  320  kubectl get pods -n longhorn-system -o wide
+  321  kubectl get pods -n longhorn-system -o wide
+  322  kubectl delete pod longhorn-manager-46pm9 -n longhorn-system
+  323  kubectl delete pod longhorn-manager-8j59w -n longhorn-system
+  324  kubectl get pods -n longhorn-system -o wide
+  325  kubectl get pods -n longhorn-system -o wide
+  326  kubectl get pods -n longhorn-system -o wide
+  327  kubectl get pods -n longhorn-system -o wide
+  328  kubectl get pods -n longhorn-system -o wide
+  329  kubectl get pods -n longhorn-system -o wide
+  330  kubectl get pods -n longhorn-system -o wide
+  331  kubectl get pods -n longhorn-system -o wide
+  332  kubectl get pods -n longhorn-system -o wide
+  333  kubectl get pods -n longhorn-system -o wide
+  334  kubectl get pods -n longhorn-system -o wide
+  335  kubectl get pods -n longhorn-system -o wide
+  336  kubectl describe pod longhorn-manager-52xfk -n longhorn-system
+  337  kubectl get pods -n longhorn-system -o wide
+  338  kubectl describe pod longhorn-manager-k7s9j -n longhorn-system
+  339  kubectl describe pod longhorn-manager-52xfk -n longhorn-system
+  340  kubectl get pods -n longhorn-system
+  341  kubectl describe pod longhorn-driver-deployer-d5945b47f-w7t6j   -n longhorn-system
+  342  kubectl get pods -n longhorn-system
+  343  kubectl describe pod longhorn-manager-52xfk   -n longhorn-system
+  344  kubectl get pods -n longhorn-system
+  345  kubectl logs longhorn-manager-52xfk   -n longhorn-system
+  346  kubectl get crd   -n longhorn-system
+  347  kubectl get crd  -n longhorn-system |grep nodes
+  348  kubectl get crd  -n longhorn-system |grep node
+  349  kubectl get crd  -n longhorn-system
+  350  ls
+  351  ls
+  352  cd longhorn-deploy
+  353  ls
+  354  kubectl delete -f longhorn-withclouddb-deploy2.yaml
+  355  kubectl get ns
+  356  kubectl get ns|grep longhorn
+  357  kubectl get ns|grep longhorn
+  358  kubectl get ns|grep longhorn
+  359  kubectl get ns|grep longhorn
+  360  kubectl get ns|grep longhorn
+  361  kubectl get ns|grep longhorn
+  362  kubectl get ns|grep longhorn
+  363  kubectl get ns|grep longhorn
+  364  kubectl get ns|grep longhorn
+  365  kubectl get ns|grep longhorn
+  366  kubectl get ns|grep longhorn
+  367  kubectl get ns|grep longhornclear
+  368  clear
+  369  kubectl get ns longhorn-system -o json > longhorn-system.json
+  370  ls;
+  371  vim ./longhorn-system.json
+  372  kubectl proxy
+  373  curl -k -H Content-Type: application/json -X PUT --data-binary @longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  374  cd long
+  375  cd longhorn-deploy
+  376  clear
+  377  curl -k -H Content-Type: application/json -X PUT --data-binary @longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  378  curl -k -H Content-Type: application/json -X PUT --data-binary @longhorn-system.json http://127.0.0.1:8001/api/v1/namespaces/longhorn-system/finalize
+  379  kubectl get namespace | grep longhorn
+  380  kubectl create -f longhorn-withclouddb-deploy2.yaml
+  381  kubectl get pods -n longhorn-system -o wide
+  382  kubectl get pods -n longhorn-system -o wide
+  383  kubectl get pods -n longhorn-system -o wide
+  384  kubectl get pods -n longhorn-system -o wide
+  385  kubectl get pods -n longhorn-system -o wide
+  386  kubectl get pods -n longhorn-system -o wide
+  387  kubectl get pods -n longhorn-system -o wide
+  388  kubectl get pods -n longhorn-system -o wide
+  389  kubectl describe pod longhorn-manager-xqbcc -n longhorn-system
+  390  kubectl logs longhorn-manager-xqbcc -n longhorn-system
+  391  kubectl get pods -n longhorn-system -o wide
+  392  kubectl get pods -n longhorn-system
+  393  kubectl get pods -n longhorn-system
+  394  ls
+  395  cd test-pvc/
+  396  ls
+  397  cd ..\
+  398  cd ..
+  399  ls
+  400  kubectl create -f longhorn-ds-storageclass.yaml
+  401  kubectl create -f longhorn-fc-storageclass.yaml
+  402  kubectl sc
+  403  kubectl get dc
+  404  kubectl get sc
+  405  ls
+  406  cd test-pvc/
+  407  ls
+  408  vi pvc-create.yaml
+  409  kubectl create -f pvc-create
+  410  kubectl create -f pvc-create.yaml
+  411  kubectl get pvc
+  412  kubectl delete -f  pvc-create
+  413  kubectl delete -f  pvc-create.yaml
+  414  kubectl create -f pvc-create.yaml
+  415  ls
+  416  vi pvc-test.yaml
+  417  vi pvc-test1.yaml
+  418  kubectl create -f pvc-test1.yaml
+  419  kubectl  pods
+  420  kubectl  get  pods
+  421  kubectl  get  pods
+  422  kubectl  get  pods
+  423  kubectl  get  pods
+  424  kubectl  get  pods
+  425  kubectl  get  pods
+  426  kubectl  get  pods
+  427  ls
+  428  vi pvc-test1.yaml
+  429  kubectl  get  pods
+  430  kubectl exec -it mypod1  bash
+  431  kubectl exec -it pod mypod1  bash
+  432  kubectl exec -it  mypod1  bash
+  433  kubectl exec -it  mypod1  sh
+  434  top
+  435  kpg get pod
+  436  kubectl get pod -n dmcp-system
+  437  kubectl delete pod -n dmcp-system api-server-7ffc7f8789-jzk7j
+  438  kubectl get pod -n dmcp-system
+  439  kubectl logs -f -n dmcp-system api-server-7ffc7f8789-rcjr6
+  440  kubectl get pod -n dmcp-system
+  441  kubectl delete pod -n dmcp-system api-server-7ffc7f8789-rcjr6
+  442  kubectl get pod -n dmcp-system
+  443  kubectl get pod -n dmcp-system
+  444  kubectl logs -f -n dmcp-system api-server-7ffc7f8789-6jv48
+  445  kubectl get pod -n dmcp-system
+  446  kubectl logs -f -n dmcp-system api-server-56bbf99588-nrbws
+  447  kubectl get pod -n dmcp-system
+  448  kubectl logs -f -n dmcp-system api-server-56bbf99588-nrbws
+  449  kubectl logs -f -n dmcp-system api-server-56bbf99588-nrbws
+  450  kubectl logs -f -n dmcp-system api-server-56bbf99588-nrbws
+  451  kubectl get pod -n dmcp-system
+  452  kubectl delete pod -n dmcp-system api-server-56bbf99588-nrbws
+  453  kubectl get pod -n dmcp-system
+  454  kubectl logs -f -n dmcp-system api-server-56bbf99588-mgcw9
+  455  unset TMOUT
+  456  . .qfusion
+  457  k get pod -A |grep 07225
+  458  k get pod  -n cidc-u-97884c8d05bc4e78bb3637a23ffd31a8  he3pg-0722577d-compute-nodes-0 -oyaml |grep uid
+  459  k -n cidc-u-97884c8d05bc4e78bb3637a23ffd31a8   get pvc
+  460  kp get  cm
+  461  kp get  cm pg-apiserver-postgresql-apiserver -oyaml
+  462  kp get pod
+  463  kp delete   pod pg-apiserver-postgresql-apiserver-86d87f5d5c-h77l5
+  464  kp get pod
+  465  k -n cidc-u-97884c8d05bc4e78bb3637a23ffd31a8   get pod
+  466  k -n cidc-u-97884c8d05bc4e78bb3637a23ffd31a8   get pod -owide
+  467  k -n cidc-u-97884c8d05bc4e78bb3637a23ffd31a8   get pod -owide
+  468  k -n cidc-u-97884c8d05bc4e78bb3637a23ffd31a8   get pvc -owide
+  469  k -n cidc-u-97884c8d05bc4e78bb3637a23ffd31a8   get pod -owide
+  470  k -n cidc-u-97884c8d05bc4e78bb3637a23ffd31a8   get pod -owide |grep 25ad26b0
+  471  k -n cidc-u-97884c8d05bc4e78bb3637a23ffd31a8   get pod he3pg-25ad26b0-compute-nodes-0 -oyaml |grep uid
+  472  unset TMOUT
+  473  . .qfusion
+  474  k get  sc
+  475  k get mode --show-labels
+  476  k get node --show-labels
+  477  k describe node szjd-zsy-test-spod2-pm-os01-paas-04
+  478  k -n   longhorn-system   get pod
+  479  k get sc
+  480  k -n   longhorn-system   get cm
+  481  k -n   longhorn-system   get cm longhorn-storageclass -oyaml
+  482  k -n   longhorn-system   get cm longhorn-default-setting -oyaml
+  483  k get node -l dbaas.cmss.com/he3pg=true
+  484  k get node --show-labels |grep az01
+  485  kp get cm
+  486  kp edit cm pg-apiserver-postgresql-apiserver
+  487  k describe node |grep cpu
+  488  kpg get pod
+  489  kpg logs pg-postgresql-apiserver-85658c869b-vhc8c  |grep -A 10 2a4aec0895f94860a97be99e91429c1b
+  490  kpg logs pg-postgresql-apiserver-85658c869b-vhc8c  |grep -A 10 2a4aec0895f94860a97be99e91429c1b
+  491  kpg logs pg-postgresql-apiserver-85658c869b-vhc8c  |grep -A 10 -i resource
+  492  kpg logs pg-postgresql-apiserver-85658c869b-vhc8c  |grep -A 10 -i resource_type
+  493  kpg logs pg-postgresql-apiserver-85658c869b-vhc8c  |grep -A 10 -i report
+  494  kpg logs pg-postgresql-apiserver-85658c869b-vhc8c  |grep -A 10 -i create
+  495  kpg logs pg-postgresql-apiserver-85658c869b-vhc8c  |grep -A 10 -i create |grep -i active
+  496  kpg logs pg-postgresql-apiserver-85658c869b-vhc8c  |grep -A 10 'do ResourceReport request'
+  497  kpg logs pg-postgresql-apiserver-85658c869b-vhc8c  |grep -A 10 ResourceReport
+  498  ls
+  499  clear
+  500  history
+  501  clear
+  502  history >> 历史命令.txt
